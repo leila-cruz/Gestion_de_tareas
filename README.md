@@ -26,7 +26,7 @@ mvn spring-boot:run
      mvn package
      java -jar target\<nombre-del-jar>.jar
      ```
-<img width="900" height="431" alt="image" src="https://github.com/user-attachments/assets/4154d336-9adc-44ff-932d-e6cc8014baa7" />
+
 ## 🔧 Cómo cambiar entre *profiles* (dev / prod)
 - Usando argumentos al iniciar:
   - Gradle (Windows):
@@ -45,10 +45,17 @@ set SPRING_PROFILES_ACTIVE=dev mvn spring-boot:run
 
 ## 📸 Capturas de pantalla de la consola
 Incluye dos capturas de ejemplo en el directorio `screenshots`:
-- `screenshots/console-dev.png` — salida de la consola con el profile `dev`.
-- `screenshots/console-prod.png` — salida de la consola con el profile `prod`.
+- salida de la consola con el profile `dev`.
+<img width="1728" height="795" alt="Captura de pantalla 2025-11-10 210549" src="https://github.com/user-attachments/assets/9723e09d-d56b-4644-8280-2b4e81e1d41c" />
+<img width="1643" height="789" alt="Captura de pantalla 2025-11-10 210628" src="https://github.com/user-attachments/assets/8184c2dc-9500-4223-bb2b-9f615017d699" />
+<img width="1731" height="792" alt="Captura de pantalla 2025-11-10 210611" src="https://github.com/user-attachments/assets/7af45c4c-14de-4946-9444-70d0d72ec929" />
 
-(Para generar las capturas: ejecutar con el profile deseado y usar la herramienta de recorte de Windows o `PrtSc`, luego guardar en la ruta indicada.)
+
+
+- salida de la consola con el profile `prod`.
+<img width="1733" height="742" alt="Captura de pantalla 2025-11-10 210905" src="https://github.com/user-attachments/assets/5e99fa77-b9fd-4c96-94c8-63556de7d33a" />
+
+<img width="1695" height="617" alt="image" src="https://github.com/user-attachments/assets/53c4b54b-9808-4f96-b02f-2c39e0ca9e6c" />
 
 ## 💭 Conclusiones personales sobre lo aprendido
 Durante el desarrollo se afianzaron conceptos clave de Spring Boot: 
